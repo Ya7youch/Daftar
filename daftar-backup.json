@@ -1,0 +1,2130 @@
+{
+ "app": "daftar-ishtirakat",
+ "exportedAt": "2026-11-01",
+ "collections": {
+  "subs": {
+   "imp02": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Haïfa Bhk",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-12",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-12",
+      "paid": true,
+      "price": 32,
+      "start": "2026-10-12"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 32,
+    "product": "ChatGPT Go (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-12",
+    "stopped": false
+   },
+   "imp03": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Jaweher Hamrouni",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2027-09-04",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2027-09-04",
+      "paid": true,
+      "price": 20,
+      "start": "2026-09-04"
+     }
+    ],
+    "months": 12,
+    "notes": "",
+    "paid": true,
+    "payMethod": "RIB",
+    "phone": "",
+    "price": 20,
+    "product": "Canva Pro",
+    "source": "import-2026-11-01",
+    "start": "2026-09-04",
+    "stopped": false
+   },
+   "imp04": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Becem Bouallegui",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2027-09-01",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2027-09-01",
+      "paid": true,
+      "price": 20,
+      "start": "2026-09-01"
+     }
+    ],
+    "months": 12,
+    "notes": "",
+    "paid": true,
+    "payMethod": "RIB",
+    "phone": "",
+    "price": 20,
+    "product": "Canva Pro",
+    "source": "import-2026-11-01",
+    "start": "2026-09-01",
+    "stopped": false
+   },
+   "imp05": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Chayma",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-30",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-30",
+      "paid": true,
+      "price": 25,
+      "start": "2026-10-30"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 25,
+    "product": "ChatGPT Plus (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-30",
+    "stopped": false
+   },
+   "imp06": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Syrine",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 262,
+    "end": "2027-06-10",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2027-06-10",
+      "paid": true,
+      "price": 65,
+      "start": "2026-09-21"
+     }
+    ],
+    "months": 0,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 65,
+    "product": "CapCut Pro",
+    "source": "import-2026-11-01",
+    "start": "2026-09-21",
+    "stopped": false
+   },
+   "imp07": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Wael T",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-13",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-13",
+      "paid": true,
+      "price": 50,
+      "start": "2026-10-13"
+     }
+    ],
+    "months": 1,
+    "notes": "اشتراكان لشهر واحد بـ 50 دت",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 50,
+    "product": "ChatGPT Plus (Partagé) ×2",
+    "source": "import-2026-11-01",
+    "start": "2026-10-13",
+    "stopped": false
+   },
+   "imp08": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Amira",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-13",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-13",
+      "paid": true,
+      "price": 50,
+      "start": "2026-10-13"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 50,
+    "product": "ChatGPT Plus (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-13",
+    "stopped": false
+   },
+   "imp09": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Hanen Ben Sassi",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-25",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-25",
+      "paid": true,
+      "price": 40,
+      "start": "2026-10-25"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 40,
+    "product": "ChatGPT Plus (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-25",
+    "stopped": false
+   },
+   "imp10": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Shimou🍓",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-25",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-25",
+      "paid": true,
+      "price": 25,
+      "start": "2026-10-25"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 25,
+    "product": "ChatGPT Plus (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-25",
+    "stopped": false
+   },
+   "imp11": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Emna",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-24",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-24",
+      "paid": true,
+      "price": 25,
+      "start": "2026-10-24"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 25,
+    "product": "ChatGPT Plus (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-24",
+    "stopped": false
+   },
+   "imp12": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Synda",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-29",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-29",
+      "paid": true,
+      "price": 40,
+      "start": "2026-10-29"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 40,
+    "product": "ChatGPT Go (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-29",
+    "stopped": false
+   },
+   "imp14": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Vision",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-10-29",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-10-29",
+      "paid": true,
+      "price": 25,
+      "start": "2026-09-29"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 25,
+    "product": "ChatGPT Plus (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-09-29",
+    "stopped": false
+   },
+   "imp15": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmDone": "2026-11-02",
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "N'ess",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-02",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-02",
+      "paid": true,
+      "price": 40,
+      "start": "2026-10-02"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 40,
+    "product": "ChatGPT Plus (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-02",
+    "stopped": false
+   },
+   "imp16": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Rihab.ibd",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-30",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-30",
+      "paid": true,
+      "price": 40,
+      "start": "2026-10-30"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 40,
+    "product": "ChatGPT Go (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-30",
+    "stopped": false
+   },
+   "imp17": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Ghofrane",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-03",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-03",
+      "paid": true,
+      "price": 40,
+      "start": "2026-10-03"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 40,
+    "product": "ChatGPT (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-03",
+    "stopped": false
+   },
+   "imp18": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Hadil Saadaoui",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-27",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-27",
+      "paid": true,
+      "price": 25,
+      "start": "2026-10-27"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 25,
+    "product": "ChatGPT (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-27",
+    "stopped": false
+   },
+   "imp19": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Barhoumi Chiraz",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-06",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-06",
+      "paid": true,
+      "price": 25,
+      "start": "2026-10-06"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 25,
+    "product": "ChatGPT (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-06",
+    "stopped": false
+   },
+   "imp20": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Aymen Safi Info",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-08",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-08",
+      "paid": true,
+      "price": 65,
+      "start": "2026-10-08"
+     }
+    ],
+    "months": 1,
+    "notes": "عرض ChatGPT شهر + CapCut Pro 5 أشهر بـ 65 دت",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 65,
+    "product": "ChatGPT",
+    "source": "import-2026-11-01",
+    "start": "2026-10-08",
+    "stopped": false
+   },
+   "imp20b": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Aymen Safi Info",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2027-03-08",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2027-03-08",
+      "paid": true,
+      "price": 0,
+      "start": "2026-10-08"
+     }
+    ],
+    "months": 5,
+    "notes": "ضمن عرض ChatGPT + CapCut (65 دت مسجّلة مع ChatGPT)",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 0,
+    "product": "CapCut Pro",
+    "source": "import-2026-11-01",
+    "start": "2026-10-08",
+    "stopped": false
+   },
+   "imp21": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Chiheb",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2028-03-26",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2028-03-26",
+      "paid": true,
+      "price": 25,
+      "start": "2026-09-26"
+     }
+    ],
+    "months": 18,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 25,
+    "product": "Gemini Pro",
+    "source": "import-2026-11-01",
+    "start": "2026-09-26",
+    "stopped": false
+   },
+   "imp22": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Chiheb",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-06",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-06",
+      "paid": true,
+      "price": 25,
+      "start": "2026-10-06"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 25,
+    "product": "ChatGPT Plus (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-06",
+    "stopped": false
+   },
+   "imp23": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Med",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-07",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-07",
+      "paid": true,
+      "price": 35,
+      "start": "2026-10-07"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 35,
+    "product": "ChatGPT Go (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-07",
+    "stopped": false
+   },
+   "imp24": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Aya",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-16",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-16",
+      "paid": true,
+      "price": 40,
+      "start": "2026-10-16"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 40,
+    "product": "ChatGPT Go (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-16",
+    "stopped": false
+   },
+   "imp25": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Assil",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2028-04-12",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2028-04-12",
+      "paid": true,
+      "price": 19.5,
+      "start": "2026-10-12"
+     }
+    ],
+    "months": 18,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 19.5,
+    "product": "Gemini Pro",
+    "source": "import-2026-11-01",
+    "start": "2026-10-12",
+    "stopped": false
+   },
+   "imp26": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Syrine",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-12",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-12",
+      "paid": true,
+      "price": 30,
+      "start": "2026-10-12"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 30,
+    "product": "ChatGPT",
+    "source": "import-2026-11-01",
+    "start": "2026-10-12",
+    "stopped": false
+   },
+   "imp27": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Zayneb",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2027-01-14",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2027-01-14",
+      "paid": true,
+      "price": 50,
+      "start": "2026-10-14"
+     }
+    ],
+    "months": 3,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 50,
+    "product": "Netflix 4K",
+    "source": "import-2026-11-01",
+    "start": "2026-10-14",
+    "stopped": false
+   },
+   "imp28": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Rihem",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-16",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-16",
+      "paid": true,
+      "price": 80,
+      "start": "2026-10-16"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 80,
+    "product": "Claude Pro (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-16",
+    "stopped": false
+   },
+   "imp29": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Sameh",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-17",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-17",
+      "paid": true,
+      "price": 30,
+      "start": "2026-10-17"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 30,
+    "product": "ChatGPT Plus (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-17",
+    "stopped": false
+   },
+   "imp31": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Ines",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-19",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-19",
+      "paid": true,
+      "price": 40,
+      "start": "2026-10-19"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 40,
+    "product": "Claude Pro (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-19",
+    "stopped": false
+   },
+   "imp32": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Mr.Hichem Hamdi",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-16",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-16",
+      "paid": true,
+      "price": 80,
+      "start": "2026-10-16"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 80,
+    "product": "ChatGPT Plus (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-16",
+    "stopped": false
+   },
+   "imp33": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Farah Khayati",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-21",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-21",
+      "paid": true,
+      "price": 80,
+      "start": "2026-10-21"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 80,
+    "product": "Claude Pro (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-21",
+    "stopped": false
+   },
+   "imp34": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Oumaima Amri (Dala)",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-21",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-21",
+      "paid": true,
+      "price": 80,
+      "start": "2026-10-21"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 80,
+    "product": "Claude Pro (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-21",
+    "stopped": false
+   },
+   "imp35": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "A (Sondos)",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-21",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-21",
+      "paid": true,
+      "price": 30,
+      "start": "2026-10-21"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 30,
+    "product": "Claude Pro (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-21",
+    "stopped": false
+   },
+   "imp36": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Ouerfelli Samyra",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-23",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-23",
+      "paid": true,
+      "price": 30,
+      "start": "2026-10-23"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 30,
+    "product": "ChatGPT Plus (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-23",
+    "stopped": false
+   },
+   "imp37": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Manel Ben Abdallah",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-16",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-16",
+      "paid": true,
+      "price": 45,
+      "start": "2026-10-16"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 45,
+    "product": "ChatGPT (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-16",
+    "stopped": false
+   },
+   "imp38": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Hakim Gamma",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-27",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-27",
+      "paid": true,
+      "price": 80,
+      "start": "2026-10-27"
+     }
+    ],
+    "months": 1,
+    "notes": "عرض ChatGPT + Claude Pro + Gemini Pro (Partagé) بـ 80 دت",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 80,
+    "product": "ChatGPT + Claude Pro (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-27",
+    "stopped": false
+   },
+   "imp38b": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Hakim Gamma",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2028-04-27",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2028-04-27",
+      "paid": true,
+      "price": 0,
+      "start": "2026-10-27"
+     }
+    ],
+    "months": 18,
+    "notes": "ضمن عرض 80 دت (مسجّلة مع ChatGPT + Claude)",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 0,
+    "product": "Gemini Pro (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-27",
+    "stopped": false
+   },
+   "imp39": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Mayssa",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-29",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-29",
+      "paid": true,
+      "price": 30,
+      "start": "2026-10-29"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 30,
+    "product": "ChatGPT Plus (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-29",
+    "stopped": false
+   },
+   "imp40": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Mohamed Gdoura",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-25",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-25",
+      "paid": true,
+      "price": 80,
+      "start": "2026-10-25"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 80,
+    "product": "ChatGPT Plus (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-25",
+    "stopped": false
+   },
+   "imp41": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Chiheb",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-25",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-25",
+      "paid": true,
+      "price": 15,
+      "start": "2026-10-25"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 15,
+    "product": "Netflix 4K",
+    "source": "import-2026-11-01",
+    "start": "2026-10-25",
+    "stopped": false
+   },
+   "imp42": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Wafa",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-28",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-28",
+      "paid": true,
+      "price": 20,
+      "start": "2026-10-28"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 20,
+    "product": "Netflix 4K",
+    "source": "import-2026-11-01",
+    "start": "2026-10-28",
+    "stopped": false
+   },
+   "imp43": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Emna",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-27",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-27",
+      "paid": true,
+      "price": 20,
+      "start": "2026-10-27"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 20,
+    "product": "Netflix 4K",
+    "source": "import-2026-11-01",
+    "start": "2026-10-27",
+    "stopped": false
+   },
+   "imp44": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Oumaima Absi",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-30",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-30",
+      "paid": true,
+      "price": 50,
+      "start": "2026-10-30"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 50,
+    "product": "QuillBot",
+    "source": "import-2026-11-01",
+    "start": "2026-10-30",
+    "stopped": false
+   },
+   "imp45": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "🥰🥰",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-30",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-30",
+      "paid": true,
+      "price": 30,
+      "start": "2026-10-30"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 30,
+    "product": "ChatGPT Plus (Partagé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-30",
+    "stopped": false
+   },
+   "imp46": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Siwar El Ouni",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-30",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-30",
+      "paid": true,
+      "price": 20,
+      "start": "2026-10-31"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 20,
+    "product": "Netflix 4K",
+    "source": "import-2026-11-01",
+    "start": "2026-10-31",
+    "stopped": false
+   },
+   "imp47": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Ameni Attafi",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-30",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-30",
+      "paid": true,
+      "price": 80,
+      "start": "2026-10-31"
+     }
+    ],
+    "months": 1,
+    "notes": "حسابان GPT Go خاص",
+    "paid": true,
+    "payMethod": "Bousta",
+    "phone": "",
+    "price": 80,
+    "product": "ChatGPT Go (Privé) ×2",
+    "source": "import-2026-11-01",
+    "start": "2026-10-31",
+    "stopped": false
+   },
+   "imp48": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Chaouchi Sabri",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-30",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-30",
+      "paid": true,
+      "price": 80,
+      "start": "2026-10-30"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "D17",
+    "phone": "",
+    "price": 80,
+    "product": "Claude Pro (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-30",
+    "stopped": false
+   },
+   "imp49": {
+    "accountId": "",
+    "alarmDays": 1,
+    "alarmOn": true,
+    "alarmTime": "09:00",
+    "client": "Chaouchi Sabri",
+    "cost": 0,
+    "createdAt": "2026-11-01T10:00:00Z",
+    "days": 0,
+    "end": "2026-11-30",
+    "history": [
+     {
+      "cost": 0,
+      "end": "2026-11-30",
+      "paid": true,
+      "price": 40,
+      "start": "2026-10-30"
+     }
+    ],
+    "months": 1,
+    "notes": "",
+    "paid": true,
+    "payMethod": "iZi",
+    "phone": "",
+    "price": 40,
+    "product": "ChatGPT Go (Privé)",
+    "source": "import-2026-11-01",
+    "start": "2026-10-30",
+    "stopped": false
+   }
+  },
+  "ledger": {
+   "imp02_0": {
+    "amount": 32,
+    "client": "Haïfa Bhk",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-12",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT Go (Privé)",
+    "subId": "imp02"
+   },
+   "imp03_0": {
+    "amount": 20,
+    "client": "Jaweher Hamrouni",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-09-04",
+    "kind": "sale",
+    "payMethod": "RIB",
+    "period": 0,
+    "product": "Canva Pro",
+    "subId": "imp03"
+   },
+   "imp04_0": {
+    "amount": 20,
+    "client": "Becem Bouallegui",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-09-01",
+    "kind": "sale",
+    "payMethod": "RIB",
+    "period": 0,
+    "product": "Canva Pro",
+    "subId": "imp04"
+   },
+   "imp05_0": {
+    "amount": 25,
+    "client": "Chayma",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-30",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT Plus (Partagé)",
+    "subId": "imp05"
+   },
+   "imp06_0": {
+    "amount": 65,
+    "client": "Syrine",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-09-21",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "CapCut Pro",
+    "subId": "imp06"
+   },
+   "imp07_0": {
+    "amount": 50,
+    "client": "Wael T",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-13",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "periodStart": "2026-10-13",
+    "product": "ChatGPT Plus (Partagé) ×2",
+    "subId": "imp07"
+   },
+   "imp08_0": {
+    "amount": 50,
+    "client": "Amira",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-13",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT Plus (Partagé)",
+    "subId": "imp08"
+   },
+   "imp09_0": {
+    "amount": 40,
+    "client": "Hanen Ben Sassi",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-25",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "ChatGPT Plus (Privé)",
+    "subId": "imp09"
+   },
+   "imp10_0": {
+    "amount": 25,
+    "client": "Shimou🍓",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-25",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "ChatGPT Plus (Partagé)",
+    "subId": "imp10"
+   },
+   "imp11_0": {
+    "amount": 25,
+    "client": "Emna",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-24",
+    "kind": "sale",
+    "payMethod": "Bousta",
+    "period": 0,
+    "product": "ChatGPT Plus (Partagé)",
+    "subId": "imp11"
+   },
+   "imp12_0": {
+    "amount": 40,
+    "client": "Synda",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-29",
+    "kind": "sale",
+    "payMethod": "Bousta",
+    "period": 0,
+    "product": "ChatGPT Go (Privé)",
+    "subId": "imp12"
+   },
+   "imp14_0": {
+    "amount": 25,
+    "client": "Vision",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-09-29",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "ChatGPT Plus (Partagé)",
+    "subId": "imp14"
+   },
+   "imp15_0": {
+    "amount": 40,
+    "client": "N'ess",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-02",
+    "kind": "sale",
+    "payMethod": "Bousta",
+    "period": 0,
+    "product": "ChatGPT Plus (Privé)",
+    "subId": "imp15"
+   },
+   "imp16_0": {
+    "amount": 40,
+    "client": "Rihab.ibd",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-30",
+    "kind": "sale",
+    "payMethod": "Bousta",
+    "period": 0,
+    "product": "ChatGPT Go (Privé)",
+    "subId": "imp16"
+   },
+   "imp17_0": {
+    "amount": 40,
+    "client": "Ghofrane",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-03",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "ChatGPT (Privé)",
+    "subId": "imp17"
+   },
+   "imp18_0": {
+    "amount": 25,
+    "client": "Hadil Saadaoui",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-27",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT (Partagé)",
+    "subId": "imp18"
+   },
+   "imp19_0": {
+    "amount": 25,
+    "client": "Barhoumi Chiraz",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-06",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT (Partagé)",
+    "subId": "imp19"
+   },
+   "imp20_0": {
+    "amount": 65,
+    "client": "Aymen Safi Info",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-08",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT",
+    "subId": "imp20"
+   },
+   "imp21_0": {
+    "amount": 25,
+    "client": "Chiheb",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-09-26",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "Gemini Pro",
+    "subId": "imp21"
+   },
+   "imp22_0": {
+    "amount": 25,
+    "client": "Chiheb",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-06",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT Plus (Partagé)",
+    "subId": "imp22"
+   },
+   "imp23_0": {
+    "amount": 35,
+    "client": "Med",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-07",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "ChatGPT Go (Privé)",
+    "subId": "imp23"
+   },
+   "imp24_0": {
+    "amount": 40,
+    "client": "Aya",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-16",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "ChatGPT Go (Privé)",
+    "subId": "imp24"
+   },
+   "imp25_0": {
+    "amount": 19.5,
+    "client": "Assil",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-12",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "Gemini Pro",
+    "subId": "imp25"
+   },
+   "imp26_0": {
+    "amount": 30,
+    "client": "Syrine",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-12",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT",
+    "subId": "imp26"
+   },
+   "imp27_0": {
+    "amount": 50,
+    "client": "Zayneb",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-14",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "Netflix 4K",
+    "subId": "imp27"
+   },
+   "imp28_0": {
+    "amount": 80,
+    "client": "Rihem",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-16",
+    "kind": "sale",
+    "payMethod": "Bousta",
+    "period": 0,
+    "product": "Claude Pro (Privé)",
+    "subId": "imp28"
+   },
+   "imp29_0": {
+    "amount": 30,
+    "client": "Sameh",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-17",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT Plus (Partagé)",
+    "subId": "imp29"
+   },
+   "imp31_0": {
+    "amount": 40,
+    "client": "Ines",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-19",
+    "kind": "sale",
+    "payMethod": "Bousta",
+    "period": 0,
+    "product": "Claude Pro (Partagé)",
+    "subId": "imp31"
+   },
+   "imp32_0": {
+    "amount": 80,
+    "client": "Mr.Hichem Hamdi",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-16",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT Plus (Privé)",
+    "subId": "imp32"
+   },
+   "imp33_0": {
+    "amount": 80,
+    "client": "Farah Khayati",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-21",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "Claude Pro (Privé)",
+    "subId": "imp33"
+   },
+   "imp34_0": {
+    "amount": 80,
+    "client": "Oumaima Amri (Dala)",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-21",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "Claude Pro (Privé)",
+    "subId": "imp34"
+   },
+   "imp35_0": {
+    "amount": 30,
+    "client": "A (Sondos)",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-21",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "Claude Pro (Partagé)",
+    "subId": "imp35"
+   },
+   "imp36_0": {
+    "amount": 30,
+    "client": "Ouerfelli Samyra",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-23",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT Plus (Partagé)",
+    "subId": "imp36"
+   },
+   "imp37_0": {
+    "amount": 45,
+    "client": "Manel Ben Abdallah",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-16",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "ChatGPT (Partagé)",
+    "subId": "imp37"
+   },
+   "imp38_0": {
+    "amount": 80,
+    "client": "Hakim Gamma",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-27",
+    "kind": "sale",
+    "payMethod": "Bousta",
+    "period": 0,
+    "product": "ChatGPT + Claude Pro (Partagé)",
+    "subId": "imp38"
+   },
+   "imp39_0": {
+    "amount": 30,
+    "client": "Mayssa",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-29",
+    "kind": "sale",
+    "payMethod": "Bousta",
+    "period": 0,
+    "product": "ChatGPT Plus (Partagé)",
+    "subId": "imp39"
+   },
+   "imp40_0": {
+    "amount": 80,
+    "client": "Mohamed Gdoura",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-25",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "ChatGPT Plus (Privé)",
+    "subId": "imp40"
+   },
+   "imp41_0": {
+    "amount": 15,
+    "client": "Chiheb",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-25",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "Netflix 4K",
+    "subId": "imp41"
+   },
+   "imp42_0": {
+    "amount": 20,
+    "client": "Wafa",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-28",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "Netflix 4K",
+    "subId": "imp42"
+   },
+   "imp43_0": {
+    "amount": 20,
+    "client": "Emna",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-27",
+    "kind": "sale",
+    "payMethod": "Bousta",
+    "period": 0,
+    "product": "Netflix 4K",
+    "subId": "imp43"
+   },
+   "imp44_0": {
+    "amount": 50,
+    "client": "Oumaima Absi",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-30",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "QuillBot",
+    "subId": "imp44"
+   },
+   "imp45_0": {
+    "amount": 30,
+    "client": "🥰🥰",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-30",
+    "kind": "sale",
+    "payMethod": "Bousta",
+    "period": 0,
+    "product": "ChatGPT Plus (Partagé)",
+    "subId": "imp45"
+   },
+   "imp46_0": {
+    "amount": 20,
+    "client": "Siwar El Ouni",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-31",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "Netflix 4K",
+    "subId": "imp46"
+   },
+   "imp47_0": {
+    "amount": 80,
+    "client": "Ameni Attafi",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-31",
+    "kind": "sale",
+    "payMethod": "Bousta",
+    "period": 0,
+    "periodStart": "2026-10-31",
+    "product": "ChatGPT Go (Privé) ×2",
+    "subId": "imp47"
+   },
+   "imp48_0": {
+    "amount": 80,
+    "client": "Chaouchi Sabri",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-30",
+    "kind": "sale",
+    "payMethod": "D17",
+    "period": 0,
+    "product": "Claude Pro (Privé)",
+    "subId": "imp48"
+   },
+   "imp49_0": {
+    "amount": 40,
+    "client": "Chaouchi Sabri",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:00:00Z",
+    "date": "2026-10-30",
+    "kind": "sale",
+    "payMethod": "iZi",
+    "period": 0,
+    "product": "ChatGPT Go (Privé)",
+    "subId": "imp49"
+   },
+   "man_2026-09-other": {
+    "amount": 795,
+    "client": "مداخيل أخرى لشهر سبتمبر",
+    "cost": 0,
+    "createdAt": "2026-11-01T11:12:00Z",
+    "date": "2026-09-30",
+    "kind": "manual",
+    "payMethod": "",
+    "product": ""
+   }
+  },
+  "expenses": {
+   "2026-09": {
+    "amount": 500,
+    "note": ""
+   },
+   "2026-10": {
+    "amount": 680,
+    "note": ""
+   }
+  },
+  "products": {
+   "p_canva": {
+    "cost": 0,
+    "days": 0,
+    "icon": "🎨",
+    "months": 12,
+    "name": "Canva Pro",
+    "price": 20
+   },
+   "p_capcut": {
+    "cost": 0,
+    "days": 0,
+    "icon": "🎬",
+    "months": 5,
+    "name": "CapCut Pro",
+    "price": 65
+   },
+   "p_claude_partage": {
+    "cost": 0,
+    "days": 0,
+    "icon": "🤖",
+    "months": 1,
+    "name": "Claude Pro (Partagé)",
+    "price": 40
+   },
+   "p_claude_prive": {
+    "cost": 0,
+    "days": 0,
+    "icon": "🤖",
+    "months": 1,
+    "name": "Claude Pro (Privé)",
+    "price": 80
+   },
+   "p_gemini": {
+    "cost": 0,
+    "days": 0,
+    "icon": "🤖",
+    "months": 18,
+    "name": "Gemini Pro",
+    "price": 25
+   },
+   "p_gpt_go_prive": {
+    "cost": 0,
+    "days": 0,
+    "icon": "🤖",
+    "months": 1,
+    "name": "ChatGPT Go (Privé)",
+    "price": 40
+   },
+   "p_gpt_plus_partage": {
+    "cost": 0,
+    "days": 0,
+    "icon": "🤖",
+    "months": 1,
+    "name": "ChatGPT Plus (Partagé)",
+    "price": 25
+   },
+   "p_gpt_plus_prive": {
+    "cost": 0,
+    "days": 0,
+    "icon": "🤖",
+    "months": 1,
+    "name": "ChatGPT Plus (Privé)",
+    "price": 40
+   },
+   "p_netflix": {
+    "cost": 0,
+    "days": 0,
+    "icon": "🎬",
+    "months": 1,
+    "name": "Netflix 4K",
+    "price": 20
+   },
+   "p_quillbot": {
+    "cost": 0,
+    "days": 0,
+    "icon": "📚",
+    "months": 1,
+    "name": "QuillBot",
+    "price": 50
+   }
+  },
+  "months": {
+   "2026-09": {
+    "expenses": 500,
+    "income": 950,
+    "net": 450,
+    "sales": 6,
+    "updatedAt": "2026-11-01T11:11:47.383Z"
+   },
+   "2026-10": {
+    "expenses": 680,
+    "income": 1761.5,
+    "net": 1081.5,
+    "sales": 41,
+    "updatedAt": "2026-11-01T11:11:46.979Z"
+   },
+   "2026-11": {
+    "expenses": 0,
+    "income": 0,
+    "net": 0,
+    "sales": 0,
+    "updatedAt": "2026-11-01T12:10:00Z"
+   }
+  }
+ }
+}
