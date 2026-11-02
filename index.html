@@ -314,6 +314,46 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:url(data:ima
 .income,.income b,.mnav h2,.sec>.rowx h2,.sec>.kk{color:var(--ink)}
 .cal,.card,.box,.tile,.stat,.pt,.ev.mini,.searchbar,.tabs button{background:rgba(255,255,255,.82);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
 .tabs button[aria-pressed="true"],.pt.on{background:rgba(241,230,241,.92)}
+.pls .pl.unpaid{position:relative;overflow:visible}
+.pls .pl.unpaid img,.pls .pl.unpaid i{border-radius:50%;overflow:hidden}
+.pls .pl.unpaid::after{content:"💴";position:absolute;bottom:-4px;right:-8px;font-size:15px;line-height:1;filter:drop-shadow(0 1px 1px rgba(0,0,0,.35))}
+.pls.many .pl.unpaid::after{font-size:12px;bottom:-3px;right:-6px}
+.unpaidTag{color:#C62828;font-size:.72rem;background:#FDE7E7;border-radius:999px;padding:1px 7px;margin-inline-start:4px;white-space:nowrap}
+#voiceBtn{display:none!important}
+.vaOrb{position:fixed;left:calc(18px + env(safe-area-inset-left,0px));bottom:calc(22px + env(safe-area-inset-bottom,0px));width:62px;height:62px;border-radius:50%;border:0;padding:0;z-index:15;cursor:pointer;background:radial-gradient(circle at 35% 30%,#fff 0%,#ece6ff 25%,#bccffa 55%,#8fb3f5 78%,#c8b6ff 100%);box-shadow:0 8px 24px rgba(110,90,220,.38),inset 0 -6px 14px rgba(120,150,255,.55)}
+.va{position:fixed;inset:0;z-index:45;background:linear-gradient(180deg,#fbfaff 0%,#f4f1ff 55%,#dfe8ff 82%,#b9cdfa 100%);display:flex;flex-direction:column;padding:calc(14px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(110px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));color:#1E1A2B}
+.va::after{content:"";position:absolute;left:-40px;right:-40px;bottom:-70px;height:260px;background:radial-gradient(ellipse at 50% 100%,rgba(120,150,255,.7),rgba(190,160,255,.4) 40%,transparent 70%);pointer-events:none}
+.va.on::after{animation:vaGlow 1.4s ease-in-out infinite}
+@keyframes vaGlow{50%{transform:scaleY(1.2)}}
+.vaTop{display:flex;justify-content:space-between;align-items:center;font-weight:700;color:#6B2A6E;position:relative;z-index:1}
+.vaTop button{border:0;background:transparent;font-size:1.3rem;min-height:40px;min-width:40px;color:#6B2A6E}
+.vaHello{margin:auto 0;text-align:center}
+.vaHello .st{font-size:2.6rem;color:#6B2A6E}
+.vaHello h2{margin:6px 0 16px;font-size:1.6rem}
+.vaSugs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.vaSugs button{background:#fff;border:1px solid #e3dcf5;border-radius:999px;padding:7px 13px;font-size:.85rem;color:#4a3f5c;min-height:0}
+.vaMsgs{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding:8px 2px;position:relative;z-index:1}
+.vaB{max-width:92%;font-size:.95rem;line-height:1.6;padding:10px 14px;border-radius:18px}
+.vaB.you{align-self:flex-start;background:#6B2A6E;color:#fff;border-end-start-radius:4px}
+.vaB.her{align-self:flex-end;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.06);border-end-end-radius:4px;width:92%}
+.vaCard{display:flex;gap:10px;align-items:center;background:#f8f5ff;border-radius:12px;padding:8px 10px;margin-top:8px}
+.vaCard .lg{width:36px;height:36px}
+.vaCard .t{flex:1;min-width:0}.vaCard small{display:block;color:#6a6385;font-size:.75rem}
+.vaTag{font-size:.72rem;font-weight:700;border-radius:999px;padding:2px 8px;white-space:nowrap}
+.vaTag.bad{background:#FDE7E7;color:#C62828}.vaTag.ok{background:#E3F3EA;color:#1F7A4D}
+.vaActs{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.vaActs button{background:#6B2A6E;color:#fff;border:0;border-radius:10px;padding:6px 11px;font-size:.8rem;min-height:0}
+.vaActs button+button{background:#fff;color:#6B2A6E;border:1px solid #e3dcf5}
+.vaText{display:flex;gap:8px;position:relative;z-index:1;margin-top:6px}
+.vaText input{flex:1;border-radius:999px;background:#fff;border:1px solid #e3dcf5;padding:10px 14px}
+.vaText button{border-radius:50%;width:44px;padding:0;background:#6B2A6E;color:#fff;border:0}
+.vaStatus{text-align:center;color:#6a6385;font-size:.85rem;position:relative;z-index:1;min-height:1.4em;margin-top:6px}
+.vaBar{position:fixed;left:max(20px,env(safe-area-inset-left,0px));right:max(20px,env(safe-area-inset-right,0px));bottom:calc(26px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;justify-content:space-between;z-index:46}
+.va[hidden] ~ .vaBar,.va[hidden] .vaBar{display:none}
+.vaBar .rb{width:58px;height:58px;border-radius:50%;background:#fff;border:0;font-size:1.4rem;box-shadow:0 2px 10px rgba(0,0,0,.08);padding:0}
+.vaPill{width:150px;height:64px;border-radius:40px;border:0;padding:0;background:radial-gradient(ellipse at 40% 30%,#fff,#dfe6ff 45%,#a9c1f7 80%);box-shadow:0 6px 20px rgba(110,130,240,.35),inset 0 -8px 16px rgba(120,150,255,.5);transition:box-shadow .2s}
+.va.on .vaPill{box-shadow:0 0 0 8px rgba(160,180,255,.35),0 0 0 16px rgba(160,180,255,.18),inset 0 -8px 16px rgba(120,150,255,.5)}
+@media (prefers-reduced-motion:reduce){.va.on::after{animation:none}}
 </style>
 
 </head>
@@ -428,6 +468,19 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:url(data:ima
     </div>
     <p class="ringmsg" id="ringMsgBox" hidden></p>
   </div>
+</div>
+
+<button class="vaOrb" id="vaOrb" type="button" aria-label="تحدّث مع التطبيق"></button>
+<div class="va" id="va" hidden role="dialog" aria-modal="true" aria-label="المساعد الصوتي">
+  <div class="vaTop"><button type="button" id="vaTts" aria-label="الصوت">🔊</button><span>دفتر الاشتراكات</span><button type="button" id="vaClose" aria-label="إغلاق">✕</button></div>
+  <div class="vaMsgs" id="vaMsgs" aria-live="polite">
+    <div class="vaHello" id="vaHello"><div class="st">✦</div><h2>كيف أساعدك؟</h2>
+      <div class="vaSugs" id="vaSugs"><button type="button">من لم يدفع؟</button><button type="button">افتح الأرباح</button><button type="button">من ينتهي اشتراكه هذا الأسبوع؟</button><button type="button">كم ربحت في أكتوبر؟</button><button type="button">كم حريف عندي؟</button></div>
+    </div>
+  </div>
+  <div class="vaStatus" id="vaStatus">اضغط وتكلّم</div>
+  <form class="vaText" id="vaText" hidden><input id="vaIn" autocomplete="off" placeholder="اكتب سؤالك…" aria-label="سؤالك"><button type="submit" aria-label="إرسال">➤</button></form>
+  <div class="vaBar"><button type="button" class="rb" id="vaKb" aria-label="الكتابة">⌨️</button><button type="button" class="vaPill" id="vaPill" aria-label="تكلّم"></button><button type="button" class="rb" id="vaMic" aria-label="الميكروفون">🎤</button></div>
 </div>
 <button class="fab" id="newBtn" type="button" aria-label="اشتراك جديد">+</button>
 <button class="fab voicefab" id="voiceBtn" type="button" aria-label="تحدّث مع ياسمين" hidden>🎙️</button>
@@ -642,7 +695,7 @@ function renderAgenda(st){
     else{
       const evs=byDay[d]||[];
       const cls=["cell","num"];if(d===tp.d)cls.push("today");
-      const shown=evs.map(({it,s})=>`<span class="pl ${s.k}" title="${esc(it.client)}">${miniLogo(it.product)}</span>`).join("");
+      const shown=evs.map(({it,s})=>`<span class="pl ${s.k}${unpaidOf(it)?" unpaid":""}" title="${esc(it.client)}${unpaidOf(it)?" · لم يدفع":""}">${miniLogo(it.product)}</span>`).join("");
       html+=`<button type="button" class="${cls.join(" ")}" data-d="${d}" aria-pressed="${d===selD}" aria-label="يوم ${d}، ${evs.length} حريف"><span class="n">${d}</span><span class="pls${evs.length>3?" many":""}${evs.length>6?" lots":""}">${shown}</span></button>`;
     }
     if(i%7===6)html+=`</div>`;
@@ -654,7 +707,7 @@ function renderAgenda(st){
   evs.forEach(({it,s})=>{
     const key="end:"+it.id,open=selKey===key;
     const tag=s.k==="off"?"لم يجدّد":s.n<0?"انتهى "+fmt(it.end):s.n===0?"ينتهي اليوم":"ينتهي "+fmt(it.end);
-    html+=`<button type="button" class="ev end ${s.k}" data-sel="${esc(key)}" aria-expanded="${open}"><span class="t">${esc(it.client)} <small>· ${esc(it.product)}</small></span><span class="tag num">${tag}</span></button>`;
+    html+=`<button type="button" class="ev end ${s.k}" data-sel="${esc(key)}" aria-expanded="${open}"><span class="t">${esc(it.client)}${unpaidOf(it)?` <b class="unpaidTag">💰 لم يدفع ${fmtMoney(unpaidOf(it))} د.ت</b>`:""} <small>· ${esc(it.product)}</small></span><span class="tag num">${tag}</span></button>`;
     if(open)html+=cardHtml(it,s);
   });
   html+=`</section>`;
@@ -1266,6 +1319,140 @@ $("vSend").addEventListener("pointerdown",unlockTTS);
 $("vForm").addEventListener("submit",e=>{e.preventDefault();unlockTTS();const q=$("vInput").value;$("vInput").value="";ask(q);});
 $("sugg").addEventListener("click",e=>{const b=e.target.closest("button");if(b){unlockTTS();ask(b.textContent);}});
 (async()=>{try{sample=window.claude?.use?await window.claude.use("sample"):null;}catch(_){sample=null;}if(sample)$("voiceBtn").hidden=false;})();
+/* ---------- voice assistant (Gemini-style, works offline from the app's data) ---------- */
+(function(){
+const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+let rec=null,listening=false,ttsOn=true;
+try{ttsOn=localStorage.getItem("va-tts")!=="0";}catch(_){}
+const vaEl=$("va"),msgs=$("vaMsgs");
+const AR_MONTHS=[["جانفي","يناير","janvier"],["فيفري","فبراير","fevrier"],["مارس"],["افريل","ابريل"],["ماي","مايو"],["جوان","يونيو"],["جويليه","جويلية","يوليو"],["اوت","اغسطس"],["سبتمبر"],["اكتوبر"],["نوفمبر"],["ديسمبر"]];
+const TR={"ا":"a","أ":"a","إ":"i","آ":"a","ب":"b","ت":"t","ث":"t","ج":"j","ح":"h","خ":"kh","د":"d","ذ":"d","ر":"r","ز":"z","س":"s","ش":"ch","ص":"s","ض":"d","ط":"t","ظ":"z","ع":"a","غ":"gh","ف":"f","ق":"k","ك":"k","ل":"l","م":"m","ن":"n","ه":"h","ة":"a","و":"ou","ي":"i","ى":"a","ء":"","ئ":"i","ؤ":"ou","پ":"p","ڤ":"v","گ":"g"};
+function latin(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").split("").map(c=>TR[c]!==undefined?TR[c]:c).join("");}
+function skel(s){return latin(s).replace(/[^a-z]/g,"").replace(/sh/g,"ch").replace(/q/g,"k").replace(/c(?!h)/g,"k").replace(/[aeiouy]/g,"").replace(/(.)\1+/g,"$1");}
+function lev(a,b){const m=a.length,n=b.length;if(!m)return n;if(!n)return m;const d=Array.from({length:m+1},(_,i)=>[i]);for(let j=1;j<=n;j++)d[0][j]=j;for(let i=1;i<=m;i++)for(let j=1;j<=n;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]?0:1));return d[m][n];}
+const STOP=new Set(["هل","دفع","دفعت","خلص","خلصت","متى","ينتهي","تنتهي","اشتراك","اشتراكه","اشتراكها","جدد","جددي","سجل","سجلي","ان","انه","انها","لـ","ل","من","لم","ما","شنوه","شكون","وقتاش","كم","عند","افتح","اذهب","روح","اعرض","وريني","بحث","ابحث","عن","الى","في","يا","و","حريف","الحريف","حريفه","the"]);
+function findClient(text){
+  const words=norm(text).replace(/[؟?!.,،]/g," ").split(/\s+/).filter(w=>w&&!STOP.has(w)).map(w=>w.replace(/^(ل|لل|و|ب)(?=..)/,""));
+  const clients=[...new Set(items.filter(i=>!i.example).map(i=>i.client))];
+  let best=null,bestScore=0;
+  for(const c of clients){
+    const toks=String(c).split(/[\s.()_-]+/).filter(t=>t.length>=2);
+    const cs=toks.map(skel).filter(Boolean),cl=norm(c);
+    for(const w of words){
+      if(w.length<2)continue;
+      let sc=0;
+      if(cl.includes(w)&&w.length>=3)sc=3;
+      const ws=skel(w);
+      for(const t of cs){if(!ws||ws.length<2)continue;if(t===ws)sc=Math.max(sc,3);else if(t.startsWith(ws)&&ws.length>=3)sc=Math.max(sc,2.5);else if(Math.min(t.length,ws.length)>=3&&lev(t,ws)<=1)sc=Math.max(sc,2);}
+      if(sc>bestScore){bestScore=sc;best=c;}
+    }
+  }
+  return bestScore>=2?best:null;
+}
+function subsOf(c){const t=todayStr();const rank=i=>(i.stopped?2:0)+(i.end<t?1:0)+(Number(i.price)>0?0:0.5);return items.filter(i=>i.client===c).sort((a,b)=>rank(a)-rank(b)||(a.end<b.end?-1:1));}
+function monthFrom(t){const n=norm(t);for(let i=0;i<12;i++)if(AR_MONTHS[i].some(m=>n.includes(norm(m))))return i;if(/الشهر الماضي|الشهر اللي فات/.test(n)){const d=new Date();return (d.getMonth()+11)%12;}return null;}
+function money(ym){
+  const inc=extra.ledger.filter(l=>(l.date||"").startsWith(ym)).reduce((a,l)=>a+(Number(l.amount)||0),0);
+  const cost=Number(extra.expenses.find(e=>e.id===ym)?.amount)||0;return{inc,cost,net:inc-cost};
+}
+function goView(v){view=v;q="";$("search").value="";closeVA();render();window.scrollTo({top:0,behavior:"smooth"});}
+function clientCard(it){
+  const s=status(it),u=unpaidOf(it);
+  return `<div class="vaCard">${logoHtml(it.product)}<div class="t"><b>${esc(it.client)}</b><small><bdi dir="ltr">${esc(it.product)}${it.payMethod?" · "+esc(it.payMethod):""}</bdi> · ينتهي ${fmt(it.end)}</small></div>${u?`<span class="vaTag bad">لم يدفع ${fmtMoney(u)}</span>`:`<span class="vaTag ok">${s.k==="bad"?"منتهي":"دفع"}</span>`}</div>
+  <div class="vaActs">${u?`<button type="button" data-va="pay" data-id="${it.id}">✅ تم الدفع</button>`:""}<button type="button" data-va="renew" data-id="${it.id}">🔄 تجديد</button><button type="button" data-va="open" data-id="${esc(it.client)}">👤 الملف</button></div>`;
+}
+function add(who,html){const d=document.createElement("div");d.className="vaB "+who;d.innerHTML=html;msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight;$("vaHello").hidden=true;return d;}
+function say(text,extraHtml){add("her","🔊 "+esc(text)+(extraHtml||""));speak(text);}
+function speak(t){
+  if(!ttsOn||!window.speechSynthesis)return;
+  try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t.replace(/[•·]/g,"،"));const vs=speechSynthesis.getVoices().filter(v=>/^ar/i.test(v.lang));if(vs[0]){u.voice=vs.find(v=>/female|laila|salma|hoda|zariyah|mariam/i.test(v.name))||vs[0];u.lang=u.voice.lang;}else u.lang="ar-SA";u.rate=1;speechSynthesis.speak(u);}catch(_){}
+}
+function listNames(arr,max=8){const n=arr.slice(0,max).map(i=>i.client);return n.join("، ")+(arr.length>max?` و${arr.length-max} آخرين`:"");}
+async function handle(text){
+  const t=norm(text);if(!t)return;
+  add("you",esc(text));
+  const t0=todayStr();
+  // navigation
+  const nav=[[/اجنده|الرزنامه|التقويم|الكالندر/,"agenda","الأجندة"],[/الارباح|المداخيل|الفلوس/,"profit","الأرباح"],[/الحسابات/,"accounts","الحسابات"],[/المنتجات/,"products","المنتجات"],[/الحرفاء|العملاء|قائمه/,"list","الحرفاء"]];
+  const wantsOpen=/افتح|اذهب|روح|اعرض|وريني|خذني|ادخل|نحب نشوف/.test(t);
+  const dayM=t.match(/يوم\s*(\d{1,2})/);
+  if(dayM&&!/ربح|مداخيل/.test(t)){const d=+dayM[1];if(d>=1&&d<=31){selD=d;selKey=null;say(`حاضر، فتحت لك يوم ${d}.`);setTimeout(()=>goView("agenda"),700);return;}}
+  if(wantsOpen){for(const [re,v,label] of nav)if(re.test(t)){say(`حاضر، فتحت لك ${label}.`);setTimeout(()=>goView(v),700);return;}}
+  // unpaid list
+  if(/لم يدفع|ما دفع|ما خلص|مازال ما|الديون|ديون|شكون ما/.test(t)&&!findClient(text)){
+    const un=items.filter(i=>!i.example&&unpaidOf(i)>0);const sum=un.reduce((a,i)=>a+unpaidOf(i),0);
+    if(!un.length){say("كل حرفائك دفعوا.");return;}
+    say(`${un.length} حرفاء لم يدفعوا، المجموع ${fmtMoney(sum)} دينار: ${listNames(un)}.`,un.slice(0,6).map(clientCard).join(""));return;
+  }
+  // money
+  if(/ربح|ربحت|مداخيل|دخل|كسبت|فلوس/.test(t)){
+    let m=monthFrom(text),y=new Date().getFullYear();if(m===null)m=new Date().getMonth();if(m>new Date().getMonth())y--;
+    const ym=ymd(y,m,1).slice(0,7),r=money(ym);
+    say(`في ${MONTHS[m]} ${y}: المداخيل ${fmtMoney(r.inc)} دينار، وسعر الشراء ${fmtMoney(r.cost)}، والربح الصافي ${fmtMoney(r.net)} دينار.`);return;
+  }
+  // ending soon
+  if(/ينتهي|تنتهي|يوفى|يكمل/.test(t)&&!findClient(text)){
+    let from=t0,to=t0,label="اليوم";
+    if(/غدا|غدوه|بكره/.test(t)){from=to=addPeriod(t0,0,1);label="غدا";}
+    else if(/اسبوع|جمعه/.test(t)){to=addPeriod(t0,0,7);label="خلال 7 أيام";}
+    else if(/شهر/.test(t)){to=addPeriod(t0,0,30);label="خلال 30 يوما";}
+    const L=items.filter(i=>!i.example&&!i.stopped&&i.end>=from&&i.end<=to).sort((a,b)=>a.end<b.end?-1:1);
+    if(!L.length){say(`لا يوجد اشتراك ينتهي ${label}.`);return;}
+    say(`${L.length} اشتراكات تنتهي ${label}: ${listNames(L)}.`,L.slice(0,6).map(clientCard).join(""));return;
+  }
+  // counts
+  if(/كم حريف|عدد الحرفاء|كم عميل|قداش من حريف/.test(t)){const n=new Set(items.filter(i=>!i.example).map(i=>i.client)).size;const a=items.filter(i=>!i.example&&!i.stopped&&i.end>=t0).length;say(`عندك ${n} حريف، و${a} اشتراك ساري الآن.`);return;}
+  // client questions
+  const c=findClient(text);
+  if(c){
+    const S=subsOf(c),it=S[0],un=S.filter(i=>unpaidOf(i)>0),u=un.reduce((a,i)=>a+unpaidOf(i),0);
+    if(/سجل|سجلي|راهو|راهي/.test(t)&&/دفع|دفعت|خلص|خلصت/.test(t)){
+      if(!un.length){say(`${c} دفع من قبل، لا يوجد عليه دين.`);return;}
+      for(const x of un)await markPaid(x);say(`تم، سجّلت أن ${c} دفع ${fmtMoney(u)} دينار.`);return;
+    }
+    if(/جدد|جددي|تجديد/.test(t)){say(`هل أجدّد ${it.product} لـ ${c} بـ ${fmtMoney(it.price)} دينار؟ اضغط «تجديد» للتأكيد.`,clientCard(it));return;}
+    if(/دفع|دفعت|خلص|خلصت/.test(t)){
+      say(u?`لا، ${c} لم يدفع بعد ${fmtMoney(u)} دينار. ${it.product} ينتهي يوم ${fmt(it.end)}.`:`نعم، ${c} دفع. ${it.product} ينتهي يوم ${fmt(it.end)}.`,clientCard(un[0]||it));return;
+    }
+    if(/متى|وقتاش|ينتهي|تنتهي/.test(t)){const s=status(it);say(`اشتراك ${c} في ${it.product} ينتهي يوم ${fmt(it.end)}${s.n!=null&&s.n>=0?`، باقي ${s.n} يوم`:s.n<0?`، انتهى منذ ${-s.n} يوم`:""}.`,clientCard(it));return;}
+    if(wantsOpen||/ملف/.test(t)){say(`فتحت لك ملف ${c}.`);setTimeout(()=>{closeVA();openProfile(c);},600);return;}
+    say(`${c}: ${S.length>1?S.length+" اشتراكات، آخرها ":""}${it.product} بـ ${fmtMoney(it.price)} دينار، ينتهي يوم ${fmt(it.end)}${u?`، ولم يدفع ${fmtMoney(u)} دينار`:""}.`,S.slice(0,3).map(clientCard).join(""));return;
+  }
+  for(const [re,v,label] of nav)if(re.test(t)){say(`حاضر، فتحت لك ${label}.`);setTimeout(()=>goView(v),700);return;}
+  if(/ابحث|بحث|فتش/.test(t)){const w=text.replace(/.*(ابحث عن|ابحث|بحث عن|فتش على|فتش)\s*/,"").trim();if(w){closeVA();$("search").value=w;q=w;render();return;}}
+  say("لم أفهم. جرّب مثلا: هل دفعت ريحاب؟ أو: من لم يدفع؟ أو: افتح الأرباح.");
+}
+function startListen(){
+  if(!SR){$("vaText").hidden=false;$("vaIn").focus();say("التعرّف على الصوت غير متاح هنا، اكتب سؤالك.");return;}
+  if(listening){try{rec.stop();}catch(_){}return;}
+  try{speechSynthesis&&speechSynthesis.cancel();}catch(_){}
+  rec=new SR();rec.lang="ar-TN";rec.interimResults=true;rec.maxAlternatives=1;
+  let final="";
+  rec.onstart=()=>{listening=true;vaEl.classList.add("on");$("vaStatus").textContent="أستمع…";};
+  rec.onresult=e=>{let s="";for(const r of e.results){s+=r[0].transcript;if(r.isFinal)final=s;}$("vaStatus").textContent=s||"أستمع…";};
+  rec.onerror=e=>{listening=false;vaEl.classList.remove("on");$("vaStatus").textContent=e.error==="not-allowed"?"اسمح للتطبيق باستعمال الميكروفون من إعدادات Chrome":e.error==="no-speech"?"لم أسمع شيئا، اضغط وتكلّم":"تعذّر الاستماع، تأكد من الإنترنت";};
+  rec.onend=()=>{listening=false;vaEl.classList.remove("on");if(final){$("vaStatus").textContent="اضغط وتكلّم";handle(final);}else if($("vaStatus").textContent==="أستمع…")$("vaStatus").textContent="اضغط وتكلّم";};
+  try{rec.start();}catch(_){}
+}
+function openVA(){vaEl.hidden=false;try{speechSynthesis&&speechSynthesis.getVoices();}catch(_){}setTimeout(startListen,250);}
+function closeVA(){vaEl.hidden=true;try{rec&&rec.stop();}catch(_){}try{speechSynthesis&&speechSynthesis.cancel();}catch(_){}}
+window.closeVA=closeVA;
+$("vaOrb").onclick=openVA;$("vaClose").onclick=closeVA;$("vaPill").onclick=startListen;$("vaMic").onclick=startListen;
+$("vaKb").onclick=()=>{const b=$("vaText");b.hidden=!b.hidden;if(!b.hidden)$("vaIn").focus();};
+$("vaTts").onclick=()=>{ttsOn=!ttsOn;$("vaTts").textContent=ttsOn?"🔊":"🔇";try{localStorage.setItem("va-tts",ttsOn?"1":"0");}catch(_){}if(!ttsOn)try{speechSynthesis.cancel();}catch(_){}};
+$("vaTts").textContent=ttsOn?"🔊":"🔇";
+$("vaText").addEventListener("submit",e=>{e.preventDefault();const v=$("vaIn").value;$("vaIn").value="";handle(v);});
+$("vaSugs").addEventListener("click",e=>{const b=e.target.closest("button");if(b)handle(b.textContent);});
+msgs.addEventListener("click",async e=>{const b=e.target.closest("[data-va]");if(!b)return;const k=b.dataset.va;
+  if(k==="open"){closeVA();openProfile(b.dataset.id);return;}
+  const it=items.find(i=>i.id===b.dataset.id);if(!it)return;b.disabled=true;
+  if(k==="pay"){await markPaid(it);say(`تم، سجّلت أن ${it.client} دفع.`);}
+  if(k==="renew"){const t=todayStr();const start=it.end>=t?it.end:t;const end=addPeriod(start,it.months,it.days);
+    await saveSub({...it,start,end,stopped:false,paid:false,history:[...(it.history||[]),{start,end,price:it.price||0,cost:it.cost||0,paid:false}]},{date:todayStr()});
+    say(`تم تجديد ${it.product} لـ ${it.client} حتى ${fmt(end)}، ومسجّل «لم يدفع» حتى تضغط «تم الدفع».`);}
+});
+})();
+
 })();
 </script>
 
