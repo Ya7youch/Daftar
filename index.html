@@ -1092,7 +1092,7 @@ function renderProfit(){
   const expDoc=extra.expenses.find(e=>e.id===ym),expAmt=Number(expDoc?.amount)||0;
   const incMan=Number(expDoc?.income)||0,debtMan=Number(extra.expenses.find(e=>e.id==="debts")?.amount)||0;
   const inc=sum(inM,h=>h.price)+incMan,cost=sum(inM,h=>h.cost)+expAmt,debt=sum(P.filter(h=>h.paid===false),h=>h.price)+debtMan;
-  const byM=Array.from({length:12},(_,m)=>sum(LG.filter(h=>(h.date||"").slice(0,7)===ymd(pm.y,m,1).slice(0,7)),h=>h.price));
+  const byM=Array.from({length:12},(_,m)=>{const k=ymd(pm.y,m,1).slice(0,7);return sum(LG.filter(h=>(h.date||"").slice(0,7)===k),h=>h.price)+(Number(extra.expenses.find(e=>e.id===k)?.income)||0);});
   const mx=Math.max(1,...byM);
   const unpaid=items.filter(it=>!it.example&&unpaidOf(it)>0);
   const prodCount={};inM.forEach(h=>{prodCount[h.it.product]=(prodCount[h.it.product]||0)+1;});
